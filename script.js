@@ -1,0 +1,10 @@
+const titleDom = document.getElementById("title");
+const yearDom = document.getElementById("year");
+const monthDom = document.getElementById("month");
+const dayDom = document.getElementById("day");
+let d = new Date();
+console.log(d.getFullYear(), d.getMonth() + 1, d.getDate());
+console.log("titleDom: " + titleDom.value);
+console.log("yearDom: " + yearDom.value);
+console.log("monthDom: " + monthDom.value);
+console.log("dayDom: " + dayDom.value);
